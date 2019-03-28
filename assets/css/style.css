@@ -1,0 +1,73 @@
+body {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: auto;
+	background-color: orange;
+
+color: #7272a8;
+font-size: 24px;
+font-weight: bolder;
+text-shadow:
+		 2px 3px 0 #000,
+	 -1px -1px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		 1px 1px 0 #000;
+}
+
+h1 {
+font-size: 42px;
+font-weight: bolder;
+}
+
+.panel-default {
+width: 50%;
+margin: 0 auto;
+margin-bottom: 10px;
+background-color: #19886c;
+}
+
+.panel-body {
+text-align: center;
+}
+
+.stats {
+text-align: center;
+}
+
+.aRight {
+text-align: right;
+}
+
+.aLeft {
+text-align: left;
+}
+
+#bottomDiv {
+position: fixed;
+bottom: 0px;
+left: 0%;
+}
+
+#header {
+margin-bottom: 25px;
+}
+
+#heightBar {
+height: 250px;
+}
+
+#playerIntro, #turnStatus {
+text-align: center;
+}
+
+#chatTextArea {
+font-size: 12px;
+font-weight: normal;
+color: #000000;
+text-shadow: none;
+}
